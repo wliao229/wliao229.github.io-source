@@ -1,0 +1,15 @@
+{{ "<!-- publication -->" | safeHTML }}
+<section id='publication'>
+	{{ with .Site.Params.publication.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+	
+	{{ range .Site.Params.publication.list }}
+	<h3>{{ .title | markdownify }}</h3>
+	  <ol>
+	    {{ range .entry }}
+	    <li>
+	      {{ . | markdownify}}
+	    </li>
+	    {{ end }}
+	  </ol>
+	{{ end }}
+</section>

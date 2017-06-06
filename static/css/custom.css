@@ -1,0 +1,25 @@
+#header .image.avatar {
+  width: 12em;
+}
+
+#sidebar ul li a {
+  color:#ffffff;
+}
+
+.status {
+  font-size: 80%;
+  line-height: 1.5em;
+  margin-top: 1em;
+  padding-left:1.5em;
+  list-style: square;
+}
+
+
+#header h1 {
+  color:#fff;
+  font-style: oblique;
+}
+
+#header h1 strong{
+  font-style: normal;
+}

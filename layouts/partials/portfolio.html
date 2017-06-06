@@ -1,0 +1,22 @@
+{{ "<!-- portfolio -->" | safeHTML }}
+<section id='project'>
+	{{ with .Site.Params.portfolio.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+	<div class="row">
+		{{ range .Site.Params.portfolio.gallery }}
+		<article class="6u 12u$(small) work-item" id="{{.id}}">
+		  {{if .Site.Params.portfolio.gallery.thumb}}
+			<a href="{{ $.Site.BaseURL }}images/{{ .image }}" class="image fit thumb"><img src="{{ $.Site.BaseURL }}images/{{ .thumb }}" alt="" /></a>
+			{{end}}
+			<h3>{{ .title | markdownify }}</h3>
+			<p>{{ .description | markdownify }}</p>
+			<ul class='status'>
+			  {{ range .status }}
+			  <li>
+			    {{ . | markdownify }}
+			  </li>
+			  {{ end }}
+			</ul>
+		</article>
+		{{ end }}
+	</div>
+</section>
