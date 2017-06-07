@@ -12,8 +12,8 @@ paginate = 10
 	# To provide some metadata for search engines feel free to add a few
   # information about you and your website.
 	name = "Wang Liao, 廖望"
-	description = "PhD Candidate in Communication, Cornell University, Communication Research"
-
+	description = "Wang is a PhD Candidate in Communication at Cornell University. I am interested in human communication in relation to sociality and organizing at various levels including individual behaviors, dyad dynamics, network structures, and group processes---and particularly across such levels."
+  keywords =
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
 
