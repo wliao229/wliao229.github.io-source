@@ -4,7 +4,7 @@ title = "Wang Liao | Communication, Sociality, & Organizing"
 theme = "hugo-strata-theme"
 # disqusShortname = "spf13"
 # Enable Google Analytics by inserting your tracking code
-googleAnalytics = "<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-100593007-1', 'auto');ga('send', 'pageview');</script>"
+googleAnalytics = "(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-100593007-1', 'auto');ga('send', 'pageview');"
 # Define how many posts should appear on a site
 paginate = 10
 
