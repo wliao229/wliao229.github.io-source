@@ -211,7 +211,3 @@ paginate = 10
 	url  = "#publication"
 	weight = 2
 	
-[[menu.main]]
-	name = "cv"
-	url  = ""
-	weight = 3
