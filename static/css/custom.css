@@ -1,7 +1,11 @@
 #header .image.avatar {
-  width: 12em;
+  width: 10em;
 }
 
+#header {
+  background-color:#b0a086;
+  
+}
 #sidebar ul li a {
   color:#ffffff;
 }
@@ -14,12 +18,37 @@
   list-style: square;
 }
 
-
-#header h1 {
-  color:#fff;
-  font-style: oblique;
+h2 {
+  color:#b0a086;
 }
 
-#header h1 strong{
-  font-style: normal;
+#header h1 {
+  color: rgba(255,255,255,.8);
+  <!--font-style: oblique;-->
+}
+
+.image.thumb {
+  text-align: center;
+  
+}
+
+.image.thumb img{
+  display: inline-block;
+  float:left;
+  border-radius:1em;
+  -moz-transition: opacity 0.2s ease-in-out;
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-ms-transition: opacity 0.2s ease-in-out;
+}
+
+.image.thumb:after {
+	border-radius: 0;
+	border: 0;
+	content: "";
+}
+.image.thumb img:last-child {
+  margin-left:-100%;
+}
+.image.thumb img:last-child:hover{
+  opacity:0;
 }
