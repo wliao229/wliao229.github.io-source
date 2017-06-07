@@ -4,7 +4,7 @@ title = "Wang Liao | Communication, Sociality, & Organizing"
 theme = "hugo-strata-theme"
 # disqusShortname = "spf13"
 # Enable Google Analytics by inserting your tracking code
-googleAnalytics = "(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-100593007-1', 'auto');ga('send', 'pageview');"
+googleAnalytics = "UA-100593007-1"
 # Define how many posts should appear on a site
 paginate = 10
 
@@ -48,7 +48,7 @@ paginate = 10
 	[params.about]
 		hide  = false
 		title = "Wang studies communication in relation to human sociality and organizing at multiple levels."
-		content = "With my mentors and colleagues at Cornell, I have been studying communication phenomena at various level of analysis, including information sharing and social exchange structure in agricultural communities, communication dynamic and status development in task-oriented groups, and communicative act ('group talk') of online 'crowds' in relation to their group identity, emotion expression, and solidarity. I am fascinated by the almost automatic processes of social interaction and the emergent social properties/structures, as well as their co-evolution. To approach these, I have been studying through the lens of quantitative and computational methods that target individual behavior, dyadic dynamic, network structure, group process, (and recently physiology)---with a goal to understand human communication as a causal agent in our social life. (Before graduate school, I was majored in advertising and worked as a part-time layout designer back in China.)"
+		content = "With my mentors and colleagues at Cornell, I have been studying communication phenomena at various level of analysis, including information sharing and social exchange structure in agricultural communities, communication dynamic and status development in task-oriented groups, and communicative act ('group talk') of online 'crowds' in relation to their group identity, emotion expression, and solidarity. I am fascinated by the almost automatic processes of social interaction and the emergent social properties/structures, as well as their co-evolution. To approach these, I have been studying through the lens of quantitative and computational methods that target individual behavior, dyadic dynamic, network structure, group process, (and recently physiology)---with a goal to understand human communication as a causal agent in our social life.<br> Before graduate school, I was majored in advertising and worked as a part-time layout designer back in China."
   
   [params.publication]
 		hide  = false
