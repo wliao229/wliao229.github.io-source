@@ -1,0 +1,291 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Compact Academic CV
+% LaTeX Template
+% Version 1.0 (10/6/2012)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Dario Taraborelli (http://nitens.org/taraborelli/home)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important:
+% This template needs to be compiled using XeLaTeX
+%
+% Note: this template has the option to use the Hoefler Text font, see the
+% font configurations section below for instructions on using this font
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt, letterpaper]{article} % Document font size and paper size
+
+\usepackage{fontspec} % Allows the use of OpenType fonts
+
+\usepackage{geometry} % Allows the configuration of document margins
+\geometry{textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in} % Document margin settings
+\setlength\parindent{0in} % Remove paragraph indentation
+
+\usepackage[usenames,dvipsnames]{xcolor} % Custom colors
+
+\usepackage{sectsty} % Allows changing the font options for sections in a document
+\usepackage[normalem]{ulem} % Custom underlining
+\usepackage{xunicode} % Allows generation of unicode characters from accented glyphs
+\defaultfontfeatures{Mapping=tex-text} % Converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+
+\usepackage{marginnote} % For margin years
+\newcommand{\years}[1]{\leavevmode\marginnote{\scriptsize #1}} % New command for including margin years
+\renewcommand*{\raggedleftmarginnote}{}
+% \setlength{\marginparsep}{7pt} % Slightly increase the distance of the margin years from the contant
+\reversemarginpar
+
+\usepackage[xetex, bookmarks, colorlinks, breaklinks, pdftitle={Wang Liao - vita},pdfauthor={Wang Liao}]{hyperref} % PDF setup - set your name and the title of the document to be incorporated into the final PDF file meta-information
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue} % Link colors
+
+
+% Wang's additional modification
+\usepackage{multicol}
+\usepackage{academicons, fontawesome}
+\usepackage{hanging}
+
+\usepackage{parskip}
+
+
+
+%----------------------------------------------------------------------------------------
+%	FONT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+% Two font choices are available in this template, the default is Linux Libertine, available for free at: http://www.linuxlibertine.org while the secondary choice is Hoefler Text which comes bundled with Mac OSX.
+% To use Hoefler Text, comment out the Linux Libertine block below and uncomment the Hoefler Text block. You will also need to replace the "\&" characters with "\amper{}" in section titles.
+
+% Linux Libertine Font (default)
+% \setromanfont [Ligatures={Common}, Numbers={OldStyle}, Variant=01]{Linux Libertine O} % Main text font
+% %\setmonofont[Scale=0.8]{Monaco} % Set mono font (e.g. phone numbers)
+% \sectionfont{\mdseries\upshape\Large} % Set font options for sections
+% \subsectionfont{\mdseries\scshape\normalsize} % Set font options for subsections
+% \subsubsectionfont{\mdseries\upshape\large} % Set font options for subsubsections
+% \chardef\&="E050 % Custom ampersand character
+
+% Hoefler Text Font (bundled with Mac OSX)
+\setromanfont [Ligatures={Common}, Numbers={OldStyle}]{Hoefler Text} % Main text font
+\setmonofont[Scale=0.8]{Monaco} % Set mono font (e.g. phone numbers)
+\setsansfont[Scale=0.9]{Optima Regular} % Set sans font, used in the main name and titles in the document
+\newcommand{\amper}{{\fontspec[Scale=.95]{Hoefler Text}\selectfont\itshape\&}} % Custom ampersand character
+\sectionfont{\sffamily\mdseries\large\underline} % Set font options for sections
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize} % Set font options for subsections
+\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize} % Set font options for subsubsections
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	CONTACT AND GENERAL INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+
+\begin{multicols}{2}
+[
+{\LARGE Wang Liao} % Your name
+]
+PhD Candidate\\
+Department of Communication\\
+455 Mann Library Building\\ % Your address
+Cornell University\\
+Ithaca, NY \texttt{14850}\\
+% USA\\[.2cm]
+
+\columnbreak
+{\tiny \faicon{phone}} 607-379-3240\\ % Your phone number
+{\tiny \faicon{envelope-o}} \href{mailto:wl483@cornell.edu}{wl483@cornell.edu}\\ % Your email address
+% Fax: \texttt{609-924-8399}\\[.2cm] % Your fax number
+{\tiny \aiicon{googlescholar}} \href{https://scholar.google.com/citations?user=dH4uqKsAAAAJ}{scholar.google.com}\\
+{\tiny \aiicon{orcid}} \href{http://orcid.org/0000-0001-6192-0837}{orcid.org/0000-0001-6192-0837}\\
+{\tiny \aiicon{researchgate}} \href{https://www.researchgate.net/profile/Wang_Liao}{researchgate.net/profile}\\
+{\tiny \faicon{user}} \href{https://wliao229.github.io}{wliao229.github.io}\\ % Your academic/personal website
+
+\end{multicols}
+% \vfill % Whitespace between contact information and specific CV information
+
+%------------------------------------------------
+
+% Born: March 12, 1879---Ulm, Germany\\ % Your date of birth
+% Nationality: German/American % Your nationality
+
+%------------------------------------------------
+
+% \section*{Current position}
+
+% \emph{Emeritus Professor}, Institute for Advanced Study, Princeton % Your current or previous employment position
+
+%------------------------------------------------
+
+\section*{Areas of research interest}
+
+Human Communication (Interperonsal, Group, and Organizional); Group Processes; Networks; Affect; Quantitative \& Computational Methods. % Your primary areas of research interest
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+% \section*{Appointments held}
+
+% \years{1903-1908}Swiss Patent Office, Bern\\
+% \years{1908-1911}University of Bern\\
+% \years{1911-1912}University of Zürich\\
+% \years{1912-1914}Charles University of Prague\\
+% \years{1914-1932}Prussian Academy of Sciences, Berlin\\
+% \years{1920-1930}University of Leiden\\
+% \years{1932-1955}Institute for Advanced Study, Princeton
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section*{Education}
+
+\years{2012-}\textsc{PhD} in Communication (expected, Spring 2018)\\
+    \textsf{
+        Department of Communication, Cornell University\\
+        Advisory Committee: Connie Yuan, Drew Margolin, Ed Lawler, Michael Macy\\
+        Dissertation: Communication, affect, and status organizing in task-oriented groups
+            } 
+
+\years{2012-2015}\textsc{MSc} in Communication\\
+    \textsf{Department of Communication, Cornell University}
+
+\years{2009-2012}\textsc{MA} in New Media Studies\\
+    \textsf{School of Journalism and Communication, Tsinghua University, China}
+
+\years{2005-2009}\textsc{BA} in Advertising\\
+    \textsf{Department of Advertising, Xiamen University, China}
+
+%----------------------------------------------------------------------------------------
+%	GRANTS, HONORS AND AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section*{Grants, honors \& awards}
+
+% \years{1921}Nobel Prize in Physics, Nobel Foundation
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS AND TALKS SECTION
+%----------------------------------------------------------------------------------------
+
+\section*{Papers}
+
+\subsection*{journal article}
+
+\begin{hangparas}{.25in}{1}
+\underline{Liao, W.}, \years{2016}  McComas, K. A., \& Yuan, Y. C. (2016) The influence of unrestricted information exchange on willingness to share information with outsiders. \textsl{Human Communication Research}. first published online. \href{http://doi.org/10.1111/hcre.12104}{doi:10.1111/hcre.12104} 
+
+    Thoemmes, F., \underline{Liao, W.}, \& Jin, Z. (2016) The analysis of the regression-discontinuity design in R. \textsl{Journal of Educational and Behavioral Statistics}, 42(3), 341-360. \href{http://doi.org/10.3102/1076998616680587}{doi:10.3102/\\1076998616680587}
+
+    \underline{Liao, W.}, Bazarova, N. N., \& Yuan, Y. C. (2016) Expertise judgment and communication accommodation in linguistic styles in computer-mediated and face-to-face groups. \textsl{Communication Research}. first published online. \href{http://doi.org/10.1177/0093650215626974}{doi:10.1177/0093650215626974}
+
+    \underline{Liao, W.}, Yuan, Y. C., \& McComas, K. A. (2016) Communal risk information sharing: motivations behind voluntary information sharing for reducing interdependent risks in a community. \textsl{Communication Research}. first published online. \href{http://doi.org/10.1177/0093650215626981}{doi:10.1177/\\0093650215626981}
+\end{hangparas}
+
+%------------------------------------------------
+
+\subsection*{manuscript in preparation}
+
+\begin{hangparas}{.25in}{1}
+\underline{Liao, W.}, Bazarova, N. N., \& Yuan, Y. C. Unpacking channel effects: A social relations analysis framework for studying individual, dyadic, and group processes in computer-mediated communication. \textsl{(under review)}
+
+Margolin, D. \& \underline{Liao, W.} Emotional ‘group talk’: A communication logic for self-organized solidarity among national football league fans on Twitter. \textsl{(writing up)}
+
+Yuan, Y. C., \underline{Liao, W.}, \& Bazarova, N. N. Judging expertise through communication styles in intercultural collaboration \textsl{(writing up)}
+
+\end{hangparas}
+
+%------------------------------------------------
+
+\subsection*{book chapter}
+\begin{hangparas}{.25in}{1}
+
+    \underline{Liao, W.}, \years{2016}  MacDonald, P., \& Yuan, Y. C. (2016) The impact of communication behaviors on expertise recognition in intercultural collaboration. In J. Treem \& P. Leonardi (Eds.), Communication, Expertise, and Organizing. Oxford, UK: Oxford University Press
+\end{hangparas}
+
+%------------------------------------------------
+
+\subsection*{conference presentation}
+\begin{hangparas}{.25in}{1}
+
+\underline{Liao, W.}, \years{2017} Bazarova, N. N., \& Yuan, Y. C. (2017, May) Development and application of an analytical framework for analyzing social behaviors with social relations models in CMC Groups. Poster presented at the 67th Annual Conference of the International Commmunication Association, San Diego, CA, USA
+
+\underline{Liao, W.}, \years{2016} McComas, K. A., \& Yuan, Y. C. (2016, November) The influence of unrestricted information exchange on willingness to share risk information with outsiders. Paper presented at the National Communication Association 102th Annual Convention, Philadelphia, PA, USA
+
+Margolin, D., \years{2015} \underline{Liao, W.}, \& Lin, Y.-R. (2015) Conversing in Reflective Glory: A Systematic Study Using National Football League Games. Proceedings of ICWSM’15
+
+\underline{Liao, W.}, Bazarova, N. N., \& Yuan, Y. C. (2015, May) Expertise judgment and communication accommodation in CMC and FtF groups. Paper presented at the 65th Annual Conference of the International Communication Association, San Juan, Puerto Rico
+
+\underline{Liao, W.}, Yuan, Y. C., \& McComas, K. A. (2015, August) Communal risk information sharing: motivations behind voluntary information sharing of late blight infection in U.S. agricultural communities. \textsl{Top 2 faculty paper of the CommSHER division} at the Annual Conference of the Association for Education in Journalism and Mass communication, San Francisco, CA, USA
+
+\underline{Liao, W.} \years{2012-2014}\& Liu, Y. (2014, May) Personalized public goods production in social networking site. Paper presented at the 63th Annual Conference of the International Communication Association, Seattle, WA, USA
+
+Theommes, F. \& \underline{Liao, W.} (2014, May) The Markov equivalence class of the mediation model. Paper presented at the Modern Modeling Method Conference. Storrs, CT, USA
+
+\underline{Liao, W.} \& Liu, Y. (2014, May) Personalized public goods production in social networking site. Paper presented at the 63th Annual Conference of the International Communication Association, Seattle, WA, USA
+
+\underline{Liao, W.} (2013, Nov). The digital legitimation of stratification. National Communication Association 99th Annual Convention, Washington, D.C., USA
+
+Thoemmes, F. \& \underline{Liao, W.} (2013, May) Propensity score matching (with multilevel data) using SPSS and R. Paper presented at the Modern Modeling Methods Conference, Storrs, CT, USA
+\end{hangparas}
+
+
+%----------------------------------------------------------------------------------------
+%	TEACHING SECTION
+%----------------------------------------------------------------------------------------
+
+\section*{Teaching}
+
+Structural Equation Modeling (COMM6950) \years{2016 Spring} \\
+\textsf{Teaching Assistant / Session Lecturer \\
+Department of Communication, Cornell University}
+
+Research Issues in Social Networks (INFO 7040) \years{2013 Fall} \\
+\textsf{Teaching Assistant \\
+Department of Information Science, Cornell University}
+
+%----------------------------------------------------------------------------------------
+%   COMPUTER PROGRAMS
+%----------------------------------------------------------------------------------------
+
+\section*{Softwares}
+
+\texttt{R} package for regression discontinuity design \years{2015-} \\
+\textsf{with Prof. Thoemmes (PI), F. \& Jin, Z. \\
+Funded by the Institute for Education Sciences (IES)}
+
+\texttt{SPSS} plugin for propensity score matching \years{2013-2015} \\
+\textsf{with Prof. Thoemmes, F. \\
+\href{http://sourceforge.net/projects/psmspss/}{sourceforge.net}}
+
+
+%------------------------------------------------
+
+% \section*{Service to the profession}
+
+% ...
+
+\vfill{} % Whitespace before final footer
+
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+
+\begin{center}
+{\scriptsize Last updated: \today\- •\- \href{https://wliao229.github.io}{wliao229.github.io}} % Any final footer text such as a URL to the latest version of your CV, last updated date, compiled in XeTeX, etc
+\end{center}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

@@ -12,7 +12,7 @@ paginate = 10
 	# To provide some metadata for search engines feel free to add a few
   # information about you and your website.
 	name = "Wang Liao, 廖望"
-	description = "Wang is a PhD Candidate in Communication at Cornell University. I am interested in human communication in relation to sociality and organizing at various levels including individual behaviors, dyad dynamics, network structures, and group processes---and particularly across such levels."
+	description = "I'm Wang Liao, a PhD Candidate in Communication at Cornell University. I study communication with respect to human sociality and organizing at various levels, including social behaviors, interpersonal dynamics, network structures, and group processes---and I am particularly interested in social consequences of communication across these levels."
 	
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
@@ -47,15 +47,14 @@ paginate = 10
 
 	[params.about]
 		hide  = false
-		title = "Wang studies communication in relation to human sociality and organizing at multiple levels."
-		content = "With my mentors and colleagues at Cornell, I have been studying communication phenomena at various level of analysis, including information sharing and social exchange structure in agricultural communities, communication dynamic and status development in task-oriented groups, and communicative act ('group talk') of online 'crowds' in relation to their group identity, emotion expression, and solidarity. I am fascinated by the almost automatic processes of social interaction and the emergent social properties/structures, as well as their co-evolution. To approach these, I have been studying through the lens of quantitative and computational methods that target individual behavior, dyadic dynamic, network structure, group process, (and recently physiology)---with a goal to understand human communication as a causal agent in our social life.<br> Before graduate school, I was majored in advertising and worked as a part-time layout designer back in China."
-  
+		title = "Wang studies communication with respect to human sociality and organizing at multiple levels."
+		content = "I have always been interested in social interaction and its emergent property/structure---with a particular fascination with human communication as a causal agent in the micro-macro links of social processes. My study at Cornell touches two of such processes: solidarity and hierarchy, to which I believe communication is essential yet often undertheorized. With my mentors and colleagues, I have been studying information sharing and social exchange within and across farming communities, interpersonal dynamics and status development in task-oriented groups, and communicative acts of online 'crowds' in relation to group identity, emotion, and solidarity. My dissertation will further investigate interpersonal dynamics of affect in status organizing within task-oriented groups, in which individual and collective processes of cognition have been the predominant focus of previous research. <br>In short, I am fascinated by the intricate relation between communication and our social life at various levels---and I have been preparing myself to learn more about it through the lens of quantitative and computational methods.<!--<br> Before graduate school, I was majored in advertising and a part-time layout designer back in China.-->"
   [params.publication]
 		hide  = false
-		title = "Recent Publications / Conference"
+		title = "Recent Papers"
 		
 		[[params.publication.list]]
-		  title = "Peer-reviewed"
+		  title = "Peer-reviewed publication"
 		  entry = [
 		    "**Liao, W.**, Bazarova, N. N., & Yuan, Y. C. (2016) Expertise judgment and communication accommodation in linguistic styles in computer-mediated and face-to-face groups. _Communication Research_. first published online. doi:[10.1177//0093650215626974](//doi.org/10.1177/0093650215626974)",
 		    "**Liao, W.**, McComas, K. A., & Yuan, Y. C. (2016) The influence of unrestricted information exchange on willingness to share information with outsiders. _Human Communication Research_. first published online. doi:[10.1111//hcre.12104](//doi.org/10.1111/hcre.12104)",
@@ -68,18 +67,27 @@ paginate = 10
 		  entry = [
 		    "**Liao, W.**, MacDonald, P., & Yuan, Y. C. (2016) The impact of communication behaviors on expertise recognition in intercultural collaboration. In J. Treem & P. Leonardi (Eds.), Communication, Expertise, and Organizing. Oxford, UK: Oxford University Press"
 		  ]
-		
-		[[params.publication.list]]
-		  title = "Selected conference presentation / proceeding"
+
+[[params.publication.list]]
+		  title = "In preparation"
 		  entry = [
-		    #"**Liao, W.**, Bazarova, N. N., & Yuan, Y. C. (2017, May) Development and application of an analytical framework for analyzing social behaviors with social relations models in CMC Groups. Poster presented at the 67th Annual Conference of the International Commmunication Association, San Diego, CA, USA",
-		    #"**Liao, W.**, McComas, K. A., & Yuan, Y. C. (2016, November) The influence of unrestricted information exchange on willingness to share risk information with outsiders. Paper presented at the National Communication Association 102th Annual Convention, Philadelphia, PA, USA",
+		    "[w/ [Prof. Bazarova](//sml.comm.cornell.edu/people) & [Prof. Yuan](//communication.cals.cornell.edu/people/y-connie-yuan)] Unpacking channel effects: A social relations analysis framework for studying individual, dyadic, and group processes in computer-mediated communication **(under review)**",
+		    "[w/ [Prof. Margolin](//blogs.cornell.edu/margolin/people)] Emotional 'group talk': A communication logic for self-organized solidarity among national football league fans on Twitter **(writing up)**"
+		    ,"[w/ [Prof. Yuan](//communication.cals.cornell.edu/people/y-connie-yuan) & [Prof. Bazarova](//sml.comm.cornell.edu/people)] Judging expertise through communication styles in intercultural collaboration **(under review)**"
+		  ]
+		  
+		[[params.publication.list]]
+		  title = "Selected conference paper"
+		  entry = [
+		    "**Liao, W.**, Bazarova, N. N., & Yuan, Y. C. (2017, May) Development and application of an analytical framework for analyzing social behaviors with social relations models in CMC Groups. Poster presented at the 67th Annual Conference of the International Commmunication Association, San Diego, CA, USA",
+		    "**Liao, W.**, McComas, K. A., & Yuan, Y. C. (2016, November) The influence of unrestricted information exchange on willingness to share risk information with outsiders. Paper presented at the National Communication Association 102th Annual Convention, Philadelphia, PA, USA",
 		    "Margolin, D., **Liao, W.**, & Lin, Y.-R. (2015) Conversing in Reflective Glory: A Systematic Study Using National Football League Games. Proceedings of ICWSM’15",
-		    #"**Liao, W.**, Bazarova, N. N., & Yuan, Y. C. (2015, May) Expertise judgment and communication accommodation in CMC and FtF groups. Paper presented at the 65th Annual Conference of the International Communication Association, San Juan, Puerto Rico",
-		    "**Liao, W.**, Yuan, Y. C., & McComas, K. A. (2015, August) Communal risk information sharing: motivations behind voluntary information sharing of late blight infection in U.S. agricultural communities. Top 2 faculty paper of the CommSHER division at the Annual Conference of the Association for Education in Journalism and Mass communication, San Francisco, CA, USA",
+		    "**Liao, W.**, Bazarova, N. N., & Yuan, Y. C. (2015, May) Expertise judgment and communication accommodation in CMC and FtF groups. Paper presented at the 65th Annual Conference of the International Communication Association, San Juan, Puerto Rico",
+		    "**Liao, W.**, Yuan, Y. C., & McComas, K. A. (2015, August) Communal risk information sharing: motivations behind voluntary information sharing of late blight infection in U.S. agricultural communities. **Top 2 faculty paper of the CommSHER division** at the Annual Conference of the Association for Education in Journalism and Mass communication, San Francisco, CA, USA",
 		    "Theommes, F. & **Liao, W.** (2014, May) The Markov Equivalence class of the Mediation Model. Paper presented at the Modern Modeling Method Conference. Storrs, Connecticut",
 		    "Thoemmes, F. & **Liao, W.** (2013, May) Propensity score matching (with multilevel data) using SPSS and R. Paper presented at the Modern Modeling Methods Conference, Storrs, Connecticut"
 		  ]
+		  
 
 	[params.portfolio]
 		hide  = false
@@ -200,13 +208,19 @@ paginate = 10
 
 
 # Menu links that appear on the left sidebar
+
+[[menu.main]]
+	name = "papers"
+	url  = "#publication"
+	weight = 1
+
 	
 [[menu.main]]
 	name = "projects"
 	url  = "#project"
-	weight = 1
-
-[[menu.main]]
-	name = "publications"
-	url  = "#publication"
 	weight = 2
+	
+[[menu.main]]
+  name = "cv"
+  url = 'cv.pdf'
+  weight = 3

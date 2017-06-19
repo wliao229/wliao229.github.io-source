@@ -10,6 +10,14 @@
   color:#ffffff;
 }
 
+body {
+  color:#777;
+}
+
+strong{
+  color:#444;
+  
+}
 .status {
   font-size: 80%;
   line-height: 1.5em;
