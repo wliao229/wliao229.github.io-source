@@ -7,12 +7,13 @@ theme = "hugo-strata-theme"
 googleAnalytics = "UA-100593007-1"
 # Define how many posts should appear on a site
 paginate = 10
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
 	# To provide some metadata for search engines feel free to add a few
   # information about you and your website.
 	name = "Wang Liao, 廖望"
-	description = "I'm Wang Liao, a PhD Candidate in Communication at Cornell University. I study communication with respect to human sociality and organizing at various levels, including social behaviors, interpersonal dynamics, network structures, and group processes---and I am particularly interested in social consequences of communication across these levels."
+	description = "I'm Wang Liao, a communication researcher of human sociality and organizing. I study the structuring effects of human communication in social, group, and interpersonal processes."
 	
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
@@ -26,7 +27,7 @@ paginate = 10
 		# Replace the avatar with a picture of your own under static/images
 		avatar = "avatar.jpg"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "**I'm Wang (\"won\") Liao,** a PhD student in human communication at Cornell University<!-- [[CV](cv.pdf)]-->"
+		bio = "**I'm Wang (\"won\") Liao,** an assistant professor at UC Davis<!-- [[CV](cv.pdf)]-->"
 		# The icons will be shown if you enter your username
 		twitter = ""
 		github = "wliao229"
@@ -47,7 +48,7 @@ paginate = 10
 
 	[params.about]
 		hide  = false
-		title = "Wang studies communication with respect to human sociality and organizing at multiple levels."
+		title = "Wang studies human communication in relation to sociality and organizing at multiple levels."
 		content = "I have always been interested in social interaction and its emergent property/structure---with a particular fascination with human communication as a causal agent in the micro-macro links of social processes. My study at Cornell touches two of such processes: solidarity and hierarchy, to which I believe communication is essential yet often undertheorized. With my mentors and colleagues, I have been studying information sharing and social exchange within and across farming communities, interpersonal dynamics and status development in task-oriented groups, and communicative acts of online 'crowds' in relation to group identity, emotion, and solidarity. My dissertation will further investigate interpersonal dynamics of affect in status organizing within task-oriented groups, in which individual and collective processes of cognition have been the predominant focus of previous research. <br>In short, I am fascinated by the intricate relation between communication and our social life at various levels---and I have been preparing myself to learn more about it through the lens of quantitative and computational methods.<!--<br> Before graduate school, I was majored in advertising and a part-time layout designer back in China.-->"
   [params.publication]
 		hide  = false
@@ -71,9 +72,9 @@ paginate = 10
 [[params.publication.list]]
 		  title = "In preparation"
 		  entry = [
-		    "[w/ [Prof. Bazarova](//sml.comm.cornell.edu/people) & [Prof. Yuan](//communication.cals.cornell.edu/people/y-connie-yuan)] Unpacking channel effects: A social relations analysis framework for studying individual, dyadic, and group processes in computer-mediated communication **(under review)**",
-		    "[w/ [Prof. Margolin](//blogs.cornell.edu/margolin/people)] Emotional 'group talk': A communication logic for self-organized solidarity among national football league fans on Twitter **(writing up)**"
-		    ,"[w/ [Prof. Yuan](//communication.cals.cornell.edu/people/y-connie-yuan) & [Prof. Bazarova](//sml.comm.cornell.edu/people)] Judging expertise through communication styles in intercultural collaboration **(under review)**"
+		    "[w/ [Dr. Bazarova](//sml.comm.cornell.edu/people) & [Dr. Yuan](//communication.cals.cornell.edu/people/y-connie-yuan)] Unpacking channel effects: A social relations analysis framework for studying individual, dyadic, and group processes in computer-mediated communication **(under review)**",
+		    "[w/ [Dr. Margolin](//blogs.cornell.edu/margolin/people)] Emotional 'group talk': A communication logic for self-organized solidarity among national football league fans on Twitter **(writing up)**"
+		    ,"[w/ [Dr. Yuan](//communication.cals.cornell.edu/people/y-connie-yuan) & [Dr. Bazarova](//sml.comm.cornell.edu/people)] Judging expertise through communication styles in intercultural collaboration **(under review)**"
 		  ]
 		  
 		[[params.publication.list]]
@@ -108,7 +109,7 @@ paginate = 10
 			id = "group_talk"
 			thumb = ["snippit/group_talk_back.jpg", "snippit/group_talk_front.jpg"]
 			title = "'Group Talk,' Emotions, & Self-Organized Solidarity"
-			description = "[w/ [Prof. Margolin](//blogs.cornell.edu/margolin/people)] The communication logics that spur self-organized collective action are not well-understood. We argue that two evolutionary predispositions—human group-mindedness and social functionalities of discrete emotions—contribute to a phenomenon we call 'group talk' where group identifiers outwardly discuss their group and, by doing so, increase self-organized solidarity. We test this communication logic among professional football fans who are repeatedly exposed to intergroup competition outcomes that, for them, are quasi-randomized. We find that competition outcomes induce differential expressions of emotions in group talk, which stimulate (positivity, anger) or suppress (sadness) further group talk, triggering a self-sustaining tendency over a full week. Implications are discussed regarding group talk’s socio-emotional functionality for self-organization in contemporary collective action."
+			description = "[w/ [Dr. Margolin](//blogs.cornell.edu/margolin/people)] The communication logics that spur self-organized collective action are not well-understood. We argue that two evolutionary predispositions—human group-mindedness and social functionalities of discrete emotions—contribute to a phenomenon we call 'group talk' where group identifiers outwardly discuss their group and, by doing so, increase self-organized solidarity. We test this communication logic among professional football fans who are repeatedly exposed to intergroup competition outcomes that, for them, are quasi-randomized. We find that competition outcomes induce differential expressions of emotions in group talk, which stimulate (positivity, anger) or suppress (sadness) further group talk, triggering a self-sustaining tendency over a full week. Implications are discussed regarding group talk’s socio-emotional functionality for self-organization in contemporary collective action."
 			status = [
 			  "(2017-05-11) journal submission in preparation"
 			  ]
@@ -116,7 +117,7 @@ paginate = 10
 			id = "cmc_srm"
 			thumb = ["snippit/cmc_srm_back.jpg", "snippit/cmc_srm_front.jpg"]
 			title = "Channel Effects & Social Relations Models"
-			description = "[w/ [Prof. Bazarova](//sml.comm.cornell.edu/people) & [Prof. Yuan](//communication.cals.cornell.edu/people/y-connie-yuan)] This paper introduces social relations analysis (SRA) and its statistical realizations---social relations models, as a multilevel framework to study channel effects of information and communication technology on social psychological processes. We summarize major conceptions of such effects in previous research on computer-mediated communication, which has examined relevant processes at group (e.g., team collaboration), dyadic (e.g., relationship development), and individual (e.g., social identification) levels separately. We discuss the connections between these conceptions and five prototypical processes---social integration, dyadic idiosyncrasy, dyadic coordination, categorical stereotyping, and dispositional stereotyping---that can be simultaneously captured by SRA through its statistical realizations. We also present an example to illustrate the richness of channel effects through the lens of SRA, along with the key methodological and analytical procedures. "
+			description = "[w/ [Dr. Bazarova](//sml.comm.cornell.edu/people) & [Dr. Yuan](//communication.cals.cornell.edu/people/y-connie-yuan)] This paper introduces social relations analysis (SRA) and its statistical realizations---social relations models, as a multilevel framework to study channel effects of information and communication technology on social psychological processes. We summarize major conceptions of such effects in previous research on computer-mediated communication, which has examined relevant processes at group (e.g., team collaboration), dyadic (e.g., relationship development), and individual (e.g., social identification) levels separately. We discuss the connections between these conceptions and five prototypical processes---social integration, dyadic idiosyncrasy, dyadic coordination, categorical stereotyping, and dispositional stereotyping---that can be simultaneously captured by SRA through its statistical realizations. We also present an example to illustrate the richness of channel effects through the lens of SRA, along with the key methodological and analytical procedures. "
 			status = [
 			  "(2017-04-11) journal submission under review",
 			  "(2017-05-28) poster presented at the 67th ICA Annual Conference"]
@@ -125,7 +126,7 @@ paginate = 10
 			id = "status_accommodate"
 			thumb = ["snippit/accommodation_status_back.jpg", "snippit/accommodation_status_front.jpg"]
 			title = "Communication Accommodation & Status Development (or Expertise Judgment)"
-			description = "[w/ [Prof. Bazarova](//sml.comm.cornell.edu/people) & [Prof. Yuan](//communication.cals.cornell.edu/people/y-connie-yuan)] Taking a communication approach to expertise, this study examined emergence of expertise through communication accommodation in 46 four-person face-to-face (FtF) and text-based computer-mediated communication (CMC) groups. We found that FtF members with a lower pre-discussion task confidence accommodated to the linguistic styles of those with a higher pre-discussion task confidence. Meanwhile, such a linguistic form of communication accommodation influenced post-discussion expertise judgment in CMC groups such that members who accommodated to others were judged as having less expertise. The communication accommodation also influenced post-discussion expertise judgment in FtF groups after taking into account perceived task-oriented communication and perceived influence. The findings emphasize the important roles of CA and of communication channel in expertise emergence."
+			description = "[w/ [Dr. Bazarova](//sml.comm.cornell.edu/people) & [Dr. Yuan](//communication.cals.cornell.edu/people/y-connie-yuan)] Taking a communication approach to expertise, this study examined emergence of expertise through communication accommodation in 46 four-person face-to-face (FtF) and text-based computer-mediated communication (CMC) groups. We found that FtF members with a lower pre-discussion task confidence accommodated to the linguistic styles of those with a higher pre-discussion task confidence. Meanwhile, such a linguistic form of communication accommodation influenced post-discussion expertise judgment in CMC groups such that members who accommodated to others were judged as having less expertise. The communication accommodation also influenced post-discussion expertise judgment in FtF groups after taking into account perceived task-oriented communication and perceived influence. The findings emphasize the important roles of CA and of communication channel in expertise emergence."
 			status = [
 			  "(2015-05-24) paper presented at the 65th ICA Annual Conference",
 			  "(2016-02-05) paper accepted by _Communication Research_"
@@ -135,7 +136,7 @@ paginate = 10
 			id = "exchange_info_sharing_2"
 			thumb = ["snippit/risk_info_sharing_2_back.jpg","snippit/risk_info_sharing_2_front.jpg"]
 			title = "Social Exchange & Information Sharing (w/ outsider)"
-			description = "[w/ [Prof. McComas](//www.risk.comm.cornell.edu/members) & [Prof. Yuan](//communication.cals.cornell.edu/people/y-connie-yuan)] This study addressed how engaging in different forms of information exchange with a group is related to group members’ willingness to share risk information with outsiders. Drawing from social exchange theories, we focused on three unrestricted forms of information exchange: pure-generalized, group-generalized, and productive. We hypothesized that individuals’ intentions to share information with outsiders would be associated positively with engagement in pure- or group-generalized exchange and negatively with productive exchange. The hypotheses were supported with data from a national survey of U.S. growers (_N_ = 452) that examined their information-sharing behaviors with groups inside and outside their local region. The findings have broad implications for understanding information sharing within and across groups."
+			description = "[w/ [Dr. McComas](//www.risk.comm.cornell.edu/members) & [Dr. Yuan](//communication.cals.cornell.edu/people/y-connie-yuan)] This study addressed how engaging in different forms of information exchange with a group is related to group members’ willingness to share risk information with outsiders. Drawing from social exchange theories, we focused on three unrestricted forms of information exchange: pure-generalized, group-generalized, and productive. We hypothesized that individuals’ intentions to share information with outsiders would be associated positively with engagement in pure- or group-generalized exchange and negatively with productive exchange. The hypotheses were supported with data from a national survey of U.S. growers (_N_ = 452) that examined their information-sharing behaviors with groups inside and outside their local region. The findings have broad implications for understanding information sharing within and across groups."
 			status = [
 			  "(2015-08-08) presented at the NCA 102th Annual Convention",
 			  "(2016-02-05) accepted by _Human Communication Research_"
@@ -145,7 +146,7 @@ paginate = 10
 			id = "exchange_info_sharing_1"
 			thumb = ["snippit/risk_info_sharing_1_back.jpg","snippit/risk_info_sharing_1_front.jpg"]
 			title = "Social Exchange & Information Sharing (w/ insider)"
-			description = "[w/ [Prof. Yuan](//communication.cals.cornell.edu/people/y-connie-yuan) & [Prof. McComas](//www.risk.comm.cornell.edu/members)] This paper extends our understanding of risk communication related to communal risk and risk information sharing. Building on research from risk communication, organizational behavior, and social psychology, it examines motivations to share information about a communal risk that concerns individual-, relational-, and community-level outcomes. We tested our hypotheses using a national sample of U.S. tomato and potato growers (_N_ = 452) regarding information sharing behaviors about a devastating plant disease that poses a communal, economic risk to agricultural communities. Our findings show that growers were motivated to share information about a communal risk based on (1) individual-oriented concerns for economic costs, (2) relationship-oriented concerns for reciprocation and the information recipient’s trustworthiness, and (3) community-oriented concerns comprising a sense of shared responsibility and community cohesiveness."
+			description = "[w/ [Dr. Yuan](//communication.cals.cornell.edu/people/y-connie-yuan) & [Dr. McComas](//www.risk.comm.cornell.edu/members)] This paper extends our understanding of risk communication related to communal risk and risk information sharing. Building on research from risk communication, organizational behavior, and social psychology, it examines motivations to share information about a communal risk that concerns individual-, relational-, and community-level outcomes. We tested our hypotheses using a national sample of U.S. tomato and potato growers (_N_ = 452) regarding information sharing behaviors about a devastating plant disease that poses a communal, economic risk to agricultural communities. Our findings show that growers were motivated to share information about a communal risk based on (1) individual-oriented concerns for economic costs, (2) relationship-oriented concerns for reciprocation and the information recipient’s trustworthiness, and (3) community-oriented concerns comprising a sense of shared responsibility and community cohesiveness."
 			status = [
 			  "(2015-08-08) paper presented at the AEJMC Annual Conference (San Francisco, CA)",
 			  "(2016-02-05) paper accepted by _Communication Research_"
@@ -155,16 +156,16 @@ paginate = 10
 			id = "rdd"
 			thumb = ["snippit/rddapp_back.jpg","snippit/rddapp_front.jpg"]
 			title = "R Package for Regression Discontinuity Design"
-			description = "[w/ [Prof. Thoemmes](//www.felixthoemmes.com) & [Ze Jin](//stat.cornell.edu/people/phds/ze-jin)] We are developing a comprehensive yet easy-to-use R package `rddapp` (with a Shiny interface!) for (1) assumption checking, (2) estimating, (3) visualizing, (4) robustness-inspecting, and (5) power-analyzing regression discontinuity designs (RDD)--with a lot more other functions. RDD is considered one of the best approaches to causal influence for certain types of 'natural experiment.' While RDD has been widely used by economists and researchers in other fields (e.g., education research), it is still less familiar to communication researchers. However, the rationale behind RDD could be potentially extended to studying many communication phenomena using certain observational data. My collaborations with Prof. Thoemmes also reflect my general interest in causal inference, which is not just a series of methods but a foundation of studying and theorizing human communication."
+			description = "[w/ [Dr. Thoemmes](//www.felixthoemmes.com) & [Dr. Ze](//scholar.google.com/citations?user=RzBIh_wAAAAJ&hl=en)] We are developing a comprehensive yet easy-to-use R package `rddapp` (with a Shiny interface!) for (1) assumption checking, (2) estimating, (3) visualizing, (4) robustness-inspecting, and (5) power-analyzing regression discontinuity designs (RDD)--with a lot more other functions. RDD is considered one of the best approaches to causal influence for certain types of 'natural experiment.' While RDD has been widely used by economists and researchers in other fields (e.g., education research), it is still less familiar to communication researchers. However, the rationale behind RDD could be potentially extended to studying many communication phenomena using certain observational data. My collaborations with Dr. Thoemmes also reflect my general interest in causal inference, which is not just a series of methods but a foundation of studying and theorizing human communication."
 			status = [
 			  "(2016-11-01) a software overview paper accepted by _Journal of Educational and Behavioral Statistics_",
-			  "(2017-03-01) the Shiny interface (beta) is online! contact [Prof. Thoemmes](//www.felixthoemmes.com) to get access"]
+			  "(2017-03-01) the Shiny interface (beta) is online! contact [Dr. Thoemmes](//www.felixthoemmes.com) to get access"]
 			  
   [[params.portfolio.gallery]]
 			id = "psm"
 			thumb = ["snippit/psmatching_back.jpg","snippit/psmatching_front.jpg"]
 			title = "SPSS Plugin for Propensity Score Matching"
-			description = "[w/ [Prof. Thoemmes](//www.felixthoemmes.com)] We have developed a SPSS plugin for propensity score matching---another popular way to adjusting observational data for causal inference. This plugin is, in fact, an easy-to-use wrapper of the R package `matchit` for the good, old SPSS, with a goal to provide a standardized procedure of propensity score matching. Since the lunch of the initial version by Prof. Thoemmes around 2012 (and I joined at around 2013), this plugin has been downloaded 45,801 times! (last checked at 2017-06-01)"
+			description = "[w/ [Dr. Thoemmes](//www.felixthoemmes.com)] We have developed a SPSS plugin for propensity score matching---another popular way to adjusting observational data for causal inference. This plugin is, in fact, an easy-to-use wrapper of the R package `matchit` for the good, old SPSS, with a goal to provide a standardized procedure of propensity score matching. Since the lunch of the initial version by Dr. Thoemmes around 2012 (and I joined at around 2013), this plugin has been downloaded 45,801 times! (last checked at 2017-06-01)"
 			status = [
 			  "(2013-05-01) paper presented at the M3 Conference (Storrs, Connecticut)",
 			  "(2013-05-01) find our PSMATCHING3 on [sourceforge](//sourceforge.net/projects/psmspss/)"]
@@ -179,8 +180,8 @@ paginate = 10
 		content = "Feel free to drop me an email at wl483(at)cornell(dot)edu, or use the following text boxes."
 
 		address = [
-			"455 Mann Library Building, Cornell University",
-			"Ithaca, NY 14853",
+			"493 Kerr Hall, University of California, Davis",
+			"Davis, CA 95616",
 			"United States"
 		]
 		# phone = "607-379-3240"
