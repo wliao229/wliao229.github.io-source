@@ -6,4 +6,5 @@
 	url = https://github.com/digitalcraftsman/hugo-strata-theme
 [submodule "public"]
 	path = public
-	url = https://github.com/wliao229/wliao229.github.io
+	url = git@github.com:wliao229/wliao229.github.io.git
+	branch = master
