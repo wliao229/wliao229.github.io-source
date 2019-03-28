@@ -27,13 +27,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 		# Replace the avatar with a picture of your own under static/images
 		avatar = "avatar.jpg"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "**I'm Wang (\"won\") Liao,** an assistant professor at UC Davis<!-- [[CV](cv.pdf)]-->"
+		bio = "**I'm Wang Liao at UC Davis**<!-- [[CV](cv.pdf)]--> (as assistant professor)"
 		# The icons will be shown if you enter your username
 		twitter = ""
 		github = "wliao229"
 		gitlab = ""
 		dribbble = ""
-		facebook = "LiaoWang"
+		facebook = ""
 		googleplus = ""
 		flickr = ""
 		linkedin = ""
@@ -49,7 +49,19 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 	[params.about]
 		hide  = false
 		title = "Wang studies human communication in relation to sociality and organizing at multiple levels."
-		content = "I have always been interested in social interaction and its emergent property/structure---with a particular fascination with human communication as a causal agent in the micro-macro links of social processes. My study at Cornell touches two of such processes: solidarity and hierarchy, to which I believe communication is essential yet often undertheorized. With my mentors and colleagues, I have been studying information sharing and social exchange within and across farming communities, interpersonal dynamics and status development in task-oriented groups, and communicative acts of online 'crowds' in relation to group identity, emotion, and solidarity. My dissertation will further investigate interpersonal dynamics of affect in status organizing within task-oriented groups, in which individual and collective processes of cognition have been the predominant focus of previous research. <br>In short, I am fascinated by the intricate relation between communication and our social life at various levels---and I have been preparing myself to learn more about it through the lens of quantitative and computational methods.<!--<br> Before graduate school, I was majored in advertising and a part-time layout designer back in China.-->"
+		content = "I have always been interested in social interaction and its
+		emergent property/structure---with a particular fascination with human communication
+		as a causal agent in the micro-macro links of social processes. My study touches two of such processes:
+		solidarity and hierarchy, to which I believe communication is essential yet often undertheorized. 
+		With my mentors and colleagues, I have been studying information sharing and social exchange within 
+		and across farming communities, interpersonal dynamics and status development in task-oriented groups, 
+		and communicative acts of online 'crowds' in relation to group identity, emotion, and solidarity. My 
+		dissertation will further investigate interpersonal dynamics of affect in status organizing within 
+		task-oriented groups, in which individual and collective processes of cognition have been the predominant 
+		focus of previous research. <br>In short, I am fascinated by the intricate relation between communication 
+		and our social life at various levels---and I have been preparing myself to learn more about it through the 
+		lens of quantitative and computational methods.<!--<br> Before graduate school, I was majored in advertising 
+		and a part-time layout designer back in China.-->"
   [params.publication]
 		hide  = false
 		title = "Recent Papers"
@@ -57,6 +69,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 		[[params.publication.list]]
 		  title = "Peer-reviewed publication"
 		  entry = [
+		  "(something here, need to update!)",
 		    "**Liao, W.**, Bazarova, N. N., & Yuan, Y. C. (2016) Expertise judgment and communication accommodation in linguistic styles in computer-mediated and face-to-face groups. _Communication Research_. first published online. doi:[10.1177//0093650215626974](//doi.org/10.1177/0093650215626974)",
 		    "**Liao, W.**, McComas, K. A., & Yuan, Y. C. (2016) The influence of unrestricted information exchange on willingness to share information with outsiders. _Human Communication Research_. first published online. doi:[10.1111//hcre.12104](//doi.org/10.1111/hcre.12104)",
 		    "**Liao, W.**, Yuan, Y. C., & McComas, K. A. (2016) Communal risk information sharing: motivations behind voluntary information sharing for reducing interdependent risks in a community. _Communication Research_. first published online. doi:[10.1177//0093650215626981](//doi.org/10.1177/0093650215626981)",
